@@ -5,6 +5,7 @@ import Model.Vehicle;
 import Model.VehicleType;
 import org.junit.jupiter.api.BeforeEach;
 
+import java.math.BigDecimal;
 import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
@@ -35,7 +36,9 @@ class VehicleManagementSystemTest {
         int yearOfAdmissionThree = 2020;
         int yearOfAdmissionFour = 2021;
 
-        vehicleOne = new Vehicle(1, 60000, 20, 15, yearOfAdmissionOne, VehicleType.MOTORCYCLE, EngineType.GASOLINE);
+        BigDecimal num1 = new BigDecimal("60000.00");
+
+        vehicleOne = new Vehicle(1, 60000.00, 20, 15, yearOfAdmissionOne, VehicleType.MOTORCYCLE, EngineType.GASOLINE);
         vehicleTwo = new Vehicle(2, 25000, 25, 20, yearOfAdmissionTwo, VehicleType.CAR, EngineType.ELECTRIC);
         vehicleThree = new Vehicle(3, 30000, 30, 25, yearOfAdmissionThree, VehicleType.TRUCK, EngineType.GASOLINE);
         vehicleFour = new Vehicle(4, 18000, 18, 14, yearOfAdmissionFour, VehicleType.MOTORCYCLE, EngineType.PETROL);

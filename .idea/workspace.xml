@@ -5,18 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="29a6d481-2de2-4c17-9a6e-d5ea9497b27e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Model/EngineType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Model/Vehicle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Model/VehicleType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/service/VehicleManagementSystem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/service/VehicleManagementSystemTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/service/VehicleManagementSystemTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/service/VehicleManagementSystemTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,6 +46,7 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -67,10 +58,25 @@
       <recent name="service" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.VehicleManagementSystemTest.getVehiclesEngineGasolineandCostLessThanCertainAmount">
+  <component name="RunManager" selected="JUnit.VehicleManagementSystemTest">
     <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Application" />
       <module name="vehiclemanagementsystem" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VehicleManagementSystemTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="vehiclemanagementsystem" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="service" />
+      <option name="MAIN_CLASS_NAME" value="service.VehicleManagementSystemTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -125,6 +131,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.VehicleManagementSystemTest" />
         <item itemvalue="JUnit.VehicleManagementSystemTest.getVehiclesEngineGasolineandCostLessThanCertainAmount" />
         <item itemvalue="JUnit.VehicleManagementSystemTest.getAllVehiclesAdmissionBeforeCertainYear" />
         <item itemvalue="JUnit.VehicleManagementSystemTest.mostExpensiveVehicle" />
@@ -140,7 +147,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1695114110265</updated>
-      <workItem from="1695114111815" duration="3712000" />
+      <workItem from="1695114111815" duration="4851000" />
     </task>
     <servers />
   </component>
