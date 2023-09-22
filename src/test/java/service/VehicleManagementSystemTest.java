@@ -37,6 +37,7 @@ class VehicleManagementSystemTest {
         int yearOfAdmissionFour = 2021;
 
         BigDecimal num1 = new BigDecimal("60000.00");
+        Vehicle truck = VehicleService.createVehicle(1,20000,200,20,2000,VehicleType.TRUCK, EngineType.GASOLINE);
 
         vehicleOne = new Vehicle(1, 60000.00, 20, 15, yearOfAdmissionOne, VehicleType.MOTORCYCLE, EngineType.GASOLINE);
         vehicleTwo = new Vehicle(2, 25000, 25, 20, yearOfAdmissionTwo, VehicleType.CAR, EngineType.ELECTRIC);
